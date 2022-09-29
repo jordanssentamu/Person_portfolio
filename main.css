@@ -11,3 +11,16 @@ nav {
   display: flex;
   gap: 100px;
 }
+.logo {
+  width: 140px;
+  height: 30px;
+  display: flex;
+  gap: 11.6px;
+}
+.logo_1 {
+  width: 24.73px;
+  height: 24.72px;
+  color: rgba(0, 107, 106, 1);
+  transform: rotate(-30deg);
+  padding-top: 10px;
+}
