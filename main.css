@@ -8,4 +8,6 @@ nav {
 .container {
   max-width: 1312px;
   height: 52px;
+  display: flex;
+  gap: 100px;
 }
