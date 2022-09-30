@@ -1,26 +1,122 @@
-nav {
-  max-width: 1440px;
-  height: 90px;
-  padding: 0px 64px;
-  background-color: ffffff;
-  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container {
-  max-width: 1312px;
-  height: 52px;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #777;
+  line-height: 1.4;
+}
+
+.nav-container {
+  width: 100%;
+  height: 14rem;
+  padding: 0px 6.4rem;
+  background-color: #fff;
+  box-shadow: 0px 0.4rem 6rem rgba(0, 0, 0, 0.1);
+  border-bottom: 0.3rem solid rgba(94, 59, 238, 1);
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo-box {
+  width: 20rem;
+  height: 4rem;
+}
+
 .logo {
-  width: 140px;
-  height: 30px;
-  display: flex;
-  gap: 11.6px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.logo_1 {
-  width: 24.73px;
-  height: 24.72px;
-  color: rgba(0, 107, 106, 1);
-  transform: rotate(-30deg);
-  padding-top: 10px;
+
+.primary-navigation {
+  width: min(90rem, 100%);
+  height: auto;
+  gap: 3.2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-navigation a {
+  text-decoration: none;
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.primary-navigation a:hover {
+  color: rgba(94, 59, 238, 1);
+}
+
+.btn-cta {
+  padding: 14px 16px;
+  background-color: white;
+  border: 1px solid rgba(94, 59, 238, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: #5e3bee;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .info_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .info {
+    width: 364px;
+    height: 24px;
+    margin-bottom: 150px;
+  }
+
+  .logo_1 {
+    width: 24.73px;
+    height: 24.72px;
+    color: rgba(0, 107, 106, 1);
+    transform: rotate(-30deg);
+    margin-top: 5px;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+
+  .contact_button_1 {
+    margin-left: 20px;
+  }
 }

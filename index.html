@@ -4,33 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
     <title>Portifolio</title>
   </head>
   <body>
-    <nav>
-      <div class="container">
-        <div class="logo">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="logo_1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
-            />
-          </svg>
-
-          <p>Logoipsum</p>
+    <header>
+      <nav class="nav-container">
+        <!--This is unnecessary-->
+        <div class="logo-box">
+          <img src="assets/Logo.svg" alt="Logo" class="logo" />
         </div>
-        <div class="info"></div>
-        <div class="contact_button"></div>
+
+        <ul class="primary-navigation">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#aboutme">About me</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+        <div class="btn-cta">
+          <a href="#contactUs" class="btn">Contact Me</a>
+        </div>
+      </nav>
+      <div class="hero_section">
+        <div class="primary_hero_section">
+          <h5>Hey, I am Jordan</h5>
+          <h1>I create product design and brand experience</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+          <div class="button">
+            <a>Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero_image">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/830f/c3a5/7b7b81beef751e84be8344c729c39ff8?Expires=1665360000&Signature=CPpdiTmjfyLAmCWsJk-Ys38LWevw5SSzpgdnp-kpVqOLYyWSY5x~zlo9nzR9Ex50r0f2t13Lpd6SSvmh24w~d1dehdPI5FwYa1hzfk1v2pcKfZi37Xof96-IhE81AmoJhOkpJulXU3gz9f-U7V66LGsPJ1UAIhDk1ub8bToSPQH1jW8XGqxi9umA8pc2mmXmu214X9L3cj6HSML7hx~Af2M6Wu8JMvztoQ6DZ0V9hArIwidDHGtSNnR2K99kNemZsoaoarweq4qWwdZRF92EcBvmOGtM35bXAc2QEARaUNt2XVHEPydKUetRXsmrOldft8I0m0BV5eL10KnMQ~~n3w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+          />
+        </div>
       </div>
-    </nav>
+    </header>
   </body>
 </html>
