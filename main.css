@@ -268,3 +268,12 @@ body {
     width: 100%;
   }
 }
+/* section */
+.main_section {
+  width: 100%;
+}
+.myskill {
+  height: 68rem;
+  width: 100%;
+  padding: 112px 64px 112px 64px;
+}
