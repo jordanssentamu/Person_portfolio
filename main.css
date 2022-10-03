@@ -22,7 +22,7 @@ body {
 
 .nav-container {
   width: 100%;
-  height: 14rem;
+  height: 8rem;
   padding: 0px 6.4rem;
   background-color: #fff;
   box-shadow: 0px 0.4rem 6rem rgba(0, 0, 0, 0.1);
@@ -39,7 +39,7 @@ body {
 }
 
 .logo {
-  width: 34rem;
+  width: 11rem;
   height: auto;
   object-fit: cover;
 }
@@ -49,7 +49,7 @@ body {
   height: auto;
   gap: 3.2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -58,7 +58,7 @@ body {
 
 .primary-navigation a {
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   text-align: center;
 }
@@ -68,6 +68,7 @@ body {
 }
 
 .btn-cta {
+  width: 12rem;
   padding: 14px 16px;
   background-color: white;
   border: 1px solid rgba(94, 59, 238, 1);
@@ -80,16 +81,14 @@ body {
 .btn {
   text-decoration: none;
   color: #5e3bee;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .hero_section {
   width: 100%;
-  height: 100vh;
+  height: 653.15px;
   background-color: #f5fcff;
-  padding: 10rem, 6.4rem, 10rem, 6.4rem;
   display: flex;
-  justify-content: space-around;
 }
 .primary_hero_content {
   height: 59.3rem;
@@ -99,48 +98,52 @@ body {
   margin-left: 6.4rem;
 }
 .hero_introduction_heading {
-  width: 33rem;
-  height: 3.5rem;
-  font-size: 3.5rem;
+  width: 12.6rem;
+  height: 2.4rem;
+  font-size: 1.6rem;
   color: #282938;
-  margin-bottom: 8rem;
+  margin-bottom: 1.6rem;
 }
 .hero_main_heading {
-  width: auto;
+  width: 593px;
   font-size: 5.6rem;
-  height: auto;
+  height: 129px;
   margin-top: 4rem;
   line-height: 6.72rem;
   font-weight: 700;
   color: rgba(40, 41, 56, 1);
-  margin-bottom: 5rem;
+  margin-bottom: 1.6rem;
 }
 .text_special {
   color: rgba(94, 59, 238, 1);
 }
 .hero_text {
-  width: 49.6rem;
+  width: 46.6rem;
   height: 5.5rem;
   margin-top: 1.6rem;
-  margin-bottom: 24rem;
-  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-size: 1.4rem;
+  line-height: 150%;
 }
-
+.button-cta {
+  width: 128px;
+  height: 52px;
+}
 .cta {
   background-color: #5e3bee;
-  padding: 27px;
   border-radius: 10px;
   color: white;
-  font-size: 3.5rem;
-  width: 27rem;
+  font-size: 1.6rem;
+  width: 150px;
+  height: 40px;
 }
 .hero_image {
   margin-top: 8rem;
   margin-right: 9.5rem;
 }
 .image {
-  height: 109.8rem;
-  width: 167.731rem;
+  height: 412.37px;
+  width: 511px;
   margin-top: 8rem;
   margin-right: 9.5rem;
 }
@@ -271,6 +274,7 @@ body {
 /* section */
 .main_section {
   width: 100%;
+  margin-top: -12px;
 }
 .myskill {
   height: 68rem;
@@ -279,22 +283,63 @@ body {
 }
 
 .intro_heading {
-  width: 26rem;
+  width: 6.5rem;
   height: 2.4rem;
-  font-size: 3.6rem;
+  font-size: 1.6rem;
   color: #282938;
-  margin-bottom: 10rem;
+  margin-bottom: 1.6rem;
+  line-height: 150%;
 }
 .main_section_heading {
   height: 5.8rem;
   width: 76.8rem;
-  font-size: 7rem;
+  font-size: 4.8rem;
   color: #282938;
+  margin-bottom: -53px;
 }
 .skill_details {
-  height: 27.8rem;
-  width: 131.2rem;
-  margin-top: 29rem;
-  margin-left: 6.4rem;
+  height: 278px;
+  width: 100%;
+  margin-top: 15rem;
   margin-right: 6.4rem;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.different_skills {
+  height: 278px;
+  width: 22.4rem;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #f5fcff;
+}
+.skill_image_container {
+  width: 6rem;
+  height: 6rem;
+  padding: 10px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+.skill_img_1 {
+  width: 4rem;
+  height: 4rem;
+}
+.skill_strategy_heading {
+  width: 259px;
+  height: 27px;
+  line-height: 33.6px;
+  color: #282938;
+  font-weight: 700;
+  margin-bottom: 16px;
+  font-size: 1.8rem;
+}
+
+.skill_strategy_text {
+  width: 171px;
+  height: 96px;
+  color: #1c1e53;
+  font-size: 1.3rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
 }
