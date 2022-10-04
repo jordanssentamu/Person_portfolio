@@ -143,9 +143,8 @@ body {
 }
 .image {
   height: 412.37px;
-  width: 511px;
-  margin-top: 8rem;
-  margin-right: 9.5rem;
+  width: 590px;
+  margin: 80px 0px 30px 0px;
 }
 
 @media screen and (max-width: 480px) {
@@ -154,62 +153,69 @@ body {
     height: auto;
   }
   .nav-container {
-    flex-direction: column;
-    height: 60rem;
     width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
+    height: 249px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 15px;
   }
   .primary-navigation {
     flex-direction: column;
-    gap: 3rem;
+    gap: 10px;
   }
   .logo-box {
-    width: 20rem;
-    height: 4rem;
+    width: 111px;
+    height: 46px;
+    padding-top: 16px;
   }
   .logo {
-    width: 10rem;
-    margin-left: 4rem;
+    width: 84px;
+    height: 17px;
   }
   .primary-navigation a {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .btn-cta {
-    padding: 0.5rem;
+    width: 9rem;
+    height: 17px;
   }
   .btn {
-    text-decoration: none;
-    font-size: 0.2rem;
+    font-size: 1rem;
+    width: 6rem;
   }
 
   .hero_section {
     flex-direction: column;
     padding-top: 8rem;
-    align-items: center;
-    justify-content: center;
+    height: 951px;
   }
   .hero_introduction_heading {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-top: 20px;
+    height: 48px;
   }
   .hero_main_heading {
-    width: 62%;
-    height: 12.9rem;
-    margin-top: 4rem;
-    line-height: 3.72rem;
+    width: 37%;
+    height: 13.9rem;
+    margin-top: -1rem;
+    line-height: 2.72rem;
     font-weight: 700;
     font-size: 1.5rem;
     color: rgba(40, 41, 56, 1);
     margin-bottom: -1rem;
     text-align: center;
   }
+  .primary_hero_content {
+    width: 100%;
+    margin-left: -1px;
+    padding: 22px;
+  }
   .hero_text {
-    width: 75%;
+    width: 55%;
     height: auto;
-    margin-top: 1rem;
-    margin-bottom: 4.4rem;
+    margin-top: -4rem;
+    margin-bottom: 2.4rem;
     font-size: 1.2rem;
   }
 
@@ -223,22 +229,23 @@ body {
   }
   .hero_image {
     width: 100%;
-    height: auto;
+    height: 447.3px;
+    margin-top: -85px;
   }
   .image {
-    height: auto;
-    width: 95%;
-    margin-bottom: 10rem;
+    height: 331.44px;
+    width: 100%;
+    margin: -47px 0px 30px 0px;
   }
 }
-
+/* 
 @media screen and (max-width: 76.8rem) {
   .nav-container {
     flex-direction: column;
     height: 75%;
     width: 100%;
     align-items: center;
-    gap: 9rem;
+    gap: 4rem;
   }
   .primary-navigation {
     flex-direction: column;
@@ -269,8 +276,8 @@ body {
 @media screen and (min-width: 120rem) {
   .nav-container {
     width: 100%;
-  }
-}
+  } 
+}*/
 /* section */
 .main_section {
   width: 100%;
@@ -342,4 +349,38 @@ body {
   font-size: 1.3rem;
   padding-top: 3rem;
   padding-left: 1rem;
+}
+
+.information_on_myself {
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  main_section {
+    width: 100%;
+  }
+  myskill {
+    height: 68rem;
+    width: 100%;
+  }
+  .intro_heading {
+    width: 6.5rem;
+    height: 2.4rem;
+    margin-top: -78px;
+  }
+  .main_section_heading {
+    height: 5.8rem;
+    width: 17.8rem;
+    font-size: 2.5rem;
+    color: #282938;
+    margin-bottom: -53px;
+  }
+  .skill_details {
+    height: 1000px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .different_skills {
+    height: 264px;
+    width: 26.4rem;
+  }
 }
