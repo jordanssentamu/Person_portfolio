@@ -494,6 +494,61 @@ body {
   width: 12px;
   margin-top: 23px;
 }
+.client_feedback_section {
+  height: 676.9px;
+  width: 100%;
+  background-color: #f5fcff;
+}
+.client_feedback_heading {
+  height: 98px;
+  width: 1000px;
+  padding-top: 98px;
+}
+.client_feedback_intro_heading {
+  height: 24px;
+  width: 560px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+.client_feedback_main_heading {
+  height: 58px;
+  width: 500px;
+  color: #282938;
+}
+.client_feedback_comments_container {
+  height: 274.9px;
+  width: 1000px;
+  display: flex;
+  gap: 32px;
+  margin-top: 90px;
+  padding-left: 20px;
+}
+.client_feedback_comments {
+  height: 274.9px;
+  width: 380px;
+  padding: 32px;
+  border: 1px solid rgba(0, 107, 106, 1);
+}
+.client_feedback_comments_credit {
+  height: 19px;
+  width: 116px;
+  margin-bottom: 32px;
+}
+.client_feedback_comments_text {
+  height: 72px;
+  width: 321px;
+  color: #1c1e53;
+  font-size: 15px;
+}
+.client_feedback_comments_credit_stars {
+  height: 18.9px;
+  width: 20px;
+  fill: solid rgba(0, 107, 106, 1);
+}
+.client_pic_and_name {
+  height: 56px;
+  width: 179px;
+}
 @media screen and (max-width: 480px) {
   main_section {
     width: 100%;
